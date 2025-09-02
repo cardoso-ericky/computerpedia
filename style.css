@@ -1,9 +1,21 @@
 body {
     background-color: rgb(75, 112, 6);
 }
-#side-bar-verde {
+.side-bar {
     position: fixed;
-    top: 0%;
-    left: 40rem;
-    background-color: rgb(75, 112, 6);
+    right: 0;
+}
+#side-bar-verde-top { top: 0; }
+#side-bar-verde-bottom { bottom: 0; }
+#escrita-logo {
+    position: fixed;
+    width: 38rem;
+    top: 5rem;
+    left: 34%;
+}
+#seta-logo {
+    position: fixed;
+    width: 5rem;
+    top: -1rem;
+    left: 62%;
 }
