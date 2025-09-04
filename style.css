@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(98, 139, 22);
+    background-image: url("side-bar-verde.png"), url("side-bar-verde.png");
+    background-position: top 0;
+    background-repeat: no-repeat;
+    background-position: left top, right top;
+}
+#escrita-logo {
+    position: relative;
+    width: 38rem;
+    top: 5rem;
+    left: 34%;
+}
+#seta-logo {
+    position: relative;
+    width: 3rem;
+    top: 2rem;
+    left: 59%;
+}
+.botoes-meio {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.botao {
+    font-family: Arial, Helvetica, sans-serif;
+}
