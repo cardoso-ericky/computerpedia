@@ -3,10 +3,9 @@ body {
 }
 .side-bar {
     position: fixed;
-    right: 0;
+    right: -0.9rem;
+    top: 0;
 }
-#side-bar-verde-top { top: 0; }
-#side-bar-verde-bottom { bottom: 0; }
 #escrita-logo {
     position: fixed;
     width: 38rem;
@@ -15,7 +14,7 @@ body {
 }
 #seta-logo {
     position: fixed;
-    width: 5rem;
-    top: -1rem;
+    width: 3rem;
+    top: 2rem;
     left: 62%;
 }
