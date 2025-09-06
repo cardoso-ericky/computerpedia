@@ -4,26 +4,31 @@ body {
     background-position: top 0;
     background-repeat: no-repeat;
     background-position: left top, right top;
+    font-family: 'Orbitron', Arial, sans-serif;
 }
-#escrita-logo {
-    position: relative;
-    width: 38rem;
-    top: 5rem;
-    left: 34%;
+.container-logo {
+    display: flex;
+    justify-content: center;
 }
-#seta-logo {
-    position: relative;
-    width: 3rem;
-    top: 2rem;
-    left: 59%;
+.logo {
+    width: 57%;
+    margin-top: -2%;
 }
 .botoes-meio {
     display: flex;
-    height: 100vh;
     justify-content: center;
-    align-items: center;
-    gap: 5px;
+    margin-top: 1%;
 }
 .botao {
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(36, 80, 0);
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    width: 21.5%;
+    border: 0.3rem solid black;
+    font-family: 'Orbitron', Arial, sans-serif;
+}
+.botao:hover {
+    border: 0.3rem solid rgb(255, 255, 255);
+    color: white;
+    cursor: pointer;
 }
