@@ -11,24 +11,68 @@ body {
     justify-content: center;
 }
 .logo {
-    width: 57%;
+    width: 66%;
     margin-top: -2%;
+}
+#botao-logo {
+    background: none;
+    padding: 0;
+    border: 0.3rem solid transparent;
+    cursor: pointer;
+    border-radius: 6%;
+    transition: border 0.30s;
+}
+#botao-logo:hover {
+    border: 0.3rem solid rgb(255, 255, 255);
 }
 .botoes-meio {
     display: flex;
     justify-content: center;
-    margin-top: 1%;
+    margin-top: 1.5%;
 }
 .botao {
     background-color: rgb(36, 80, 0);
     color: rgb(255, 255, 255);
-    font-size: 2rem;
+    font-size: 1.6rem;
     width: 21.5%;
     border: 0.3rem solid black;
     font-family: 'Orbitron', Arial, sans-serif;
+    transition: border 0.25s, color 0.25s;
 }
 .botao:hover {
     border: 0.3rem solid rgb(255, 255, 255);
     color: white;
     cursor: pointer;
+}
+.conteudo-software {
+    display: none;
+    margin-top: 1%;
+}
+.accordion-titulo {
+  font-family: 'Orbitron', Arial, sans-serif;
+  background-color: #0024b3;
+  color: white;
+  cursor: pointer;
+  padding: 7px 15px;
+  border: 3px solid #000000;
+  font-size: 1.4rem;
+  transition: background-color 0.30s;
+  left: 10%;
+  margin-left: 31rem;
+}
+.accordion-titulo:hover {
+  background-color: white;
+  color: #0024b3;
+}
+.accordion {
+  margin-right: 7.1%;
+  margin-left: 7.1%;
+}
+.accordion-conteudo {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: #377ade;
+  padding: 0 20px;
+  font-size: 1.4rem;
 }
