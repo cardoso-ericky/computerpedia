@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function (){
         limpador();
         document.querySelector('.conteudo-creditos').style.display = 'flex';
     });
-    const accordion = document.querySelectorAll('.accordion-titulo');
+    const accordion = document.querySelectorAll('.accordion-botao');
     accordion.forEach(header => {
     header.addEventListener('click', () => {
     const conteudo = header.nextElementSibling;
