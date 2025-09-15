@@ -12,7 +12,7 @@ body {
     justify-content: center;
 }
 .logo {
-    width: 80%; /*66*/
+    width: 66%; /* em casa: 66*/ /* escola: 80%*/ 
     margin-top: -2%;
 }
 #botao-logo {
@@ -34,8 +34,8 @@ body {
 .botao {
     background-color: rgb(36, 80, 0);
     color: rgb(255, 255, 255);
-    font-size: 2rem; /*1.6*/
-    width: 22.3%; /*21.5*/
+    font-size: 1.6rem; /* em casa: 1.6*/ /* escola: 2rem*/ 
+    width: 21.5%; /* em casa: 21.5*/ /* escola: 22.3%*/
     border: 0.3rem solid black;
     font-family: 'Orbitron', Arial, sans-serif;
     transition: border 0.25s, color 0.25s;
@@ -64,34 +64,43 @@ body {
     text-align: justify;
     font-size: 1.5rem;
 } 
-
-.sistemas-botao {
+.accordion-botao {
     font-family: 'Orbitron', Arial, sans-serif;
-    background-color: #0024b3;
     color: white;
     cursor: pointer;
     padding: 7px 15px;
     border: 3px solid #000000;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     transition: background-color 0.30s;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    margin-top: 0.3rem;
+    border-width: 0.35rem;
 }
-.sistemas-botao:hover {
+.botao-accordion-software { background-color: #0024b3; }
+.botao-accordion-hardware { 
+    background-color: rgb(240, 255, 70); 
+    color: black;
+}
+.botao-accordion-software:hover {
     background-color: white;
     color: #0024b3;
 }
- .sistemas-conteudo { 
+.botao-accordion-hardware:hover {
+    background-color: black;
+    color: rgb(240, 255, 70);
+    border-color: rgb(240, 255, 70);
+}
+ .accordion-conteudo { 
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
-    background-color: #377ade;
     padding: 0 20px;
-    font-size: 1.4rem;
-    margin-right: -1.6%; /* em casa não tinha*/
-    margin-left: -1.6%;  /* em casa não tinha*/
+    font-size: 1.4rem; 
+ /* margin-right: -1.6%; /* em casa não tinha*/ /* na escola tem: margin-right: -1.6%;*/ 
+ /* margin-left: -1.6%;  /* em casa não tinha*/ /* na escola tem: margin-left: -1.6%;*/
 }
+.conteudo-accordion-software { background-color: #377ade; }
+.conteudo-accordion-hardware { background-color: #e1ff5a; }
 .conteudo-hardware { color: #000000; }
 #oq-hardware { font-size: 2.7rem; }
 #hardware-define { font-size: 1.8rem; }
