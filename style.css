@@ -78,7 +78,7 @@ body {
 }
 .botao-accordion-software { background-color: #0024b3; }
 .botao-accordion-hardware { 
-    background-color: rgb(240, 255, 70); 
+    background-color: rgb(243, 255, 114); 
     color: black;
 }
 .botao-accordion-software:hover {
@@ -107,11 +107,8 @@ body {
     align-items: flex-start;
     gap: 2rem;
 }
-.placamae-texto, .ram-texto {
+.placamae-texto, .cpu-texto, .ram-texto, .gpu-texto, .armazenamento-texto, .psu-texto {
     font-size: 1.2rem;
-}
-.cpu-texto { 
-    font-size: 1.3rem;
 }
 .accordion-img {
     margin-left: 0;
@@ -123,8 +120,8 @@ body {
     height: 20rem;
 }
 #cpu-img {
-    width: 20rem;
-    height: 20rem;
+    width: 25rem;
+    height: 25rem;
 }
 #ram-img {
     width: 25rem;
@@ -133,6 +130,20 @@ body {
 #gpu-img {
     width: 25rem;
     height: 20rem;
+}
+#ssd-img {
+    width: 20rem;
+    height: 20rem;
+}
+#psu-img {
+    width: 20rem;
+    height: 20rem;
+}
+.lista-software {
+    font-size: 1.5rem;
+}
+.espaco-lista {
+    margin-top: 1%;
 }
 .conteudo-hardware { color: #000000; }
 #oq-hardware { font-size: 2.7rem; }
@@ -143,4 +154,22 @@ body {
 }
 .lista-mal {
     font-size: 1.5rem;
+}
+#creditos-texto {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1%;
+    color: wheat;
+}
+.nomes {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: -1rem;
+}
+.biografias {
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }

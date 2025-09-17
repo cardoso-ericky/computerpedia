@@ -51,8 +51,9 @@ document.addEventListener('DOMContentLoaded', function (){
     if (conteudo.style.maxHeight) {
       conteudo.style.maxHeight = null;
     } else {
-      document.querySelectorAll('.accordion-conteudo').forEach(c => c.style.maxHeight = null);
+      // document.querySelectorAll('.accordion-conteudo').forEach(c => c.style.maxHeight = null);
       conteudo.style.maxHeight = conteudo.scrollHeight + "px";
+      conteudo.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
     });
     });
