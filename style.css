@@ -81,6 +81,10 @@ body {
     background-color: rgb(243, 255, 114); 
     color: black;
 }
+.botao-accordion-malware {
+    background-color: rgb(255, 0, 51);
+    color: black;
+}
 .botao-accordion-software:hover {
     background-color: white;
     color: #0024b3;
@@ -89,6 +93,11 @@ body {
     background-color: black;
     color: rgb(240, 255, 70);
     border-color: rgb(240, 255, 70);
+}
+.botao-accordion-malware:hover {
+    background-color: black;
+    color: rgb(255, 0, 51);
+    border-color: rgb(255, 0, 51);
 }
  .accordion-conteudo { 
     max-height: 0;
@@ -101,42 +110,21 @@ body {
 }
 .conteudo-accordion-software { background-color: #377ade; }
 .conteudo-accordion-hardware { background-color: #e1ff5a; }
+.conteudo-accordion-malware { background-color: rgb(204, 0, 0); }
 .accordion-flex {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 2rem;
 }
-.placamae-texto, .cpu-texto, .ram-texto, .gpu-texto, .armazenamento-texto, .psu-texto {
+.accordion-text {
     font-size: 1.2rem;
 }
 .accordion-img {
     margin-left: 0;
     margin-top: 0.5rem;
     align-self: center;
-}
-#placamae-img {
-    width: 30rem;
-    height: 20rem;
-}
-#cpu-img {
     width: 25rem;
-    height: 25rem;
-}
-#ram-img {
-    width: 25rem;
-    height: 25rem;
-}
-#gpu-img {
-    width: 25rem;
-    height: 20rem;
-}
-#ssd-img {
-    width: 20rem;
-    height: 20rem;
-}
-#psu-img {
-    width: 20rem;
     height: 20rem;
 }
 .lista-software {
@@ -148,7 +136,7 @@ body {
 .conteudo-hardware { color: #000000; }
 #oq-hardware { font-size: 2.7rem; }
 #hardware-define { font-size: 1.8rem; }
-.conteudo-malware { 
+.introd-malware { 
     padding-left: 1%;
     padding-right: 1%;
 }
