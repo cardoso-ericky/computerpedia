@@ -12,7 +12,7 @@ body {
     justify-content: center;
 }
 .logo {
-    width: 80%; /* em casa: 66*/ /* escola: 80%*/ 
+    width: 66%; /* em casa: 66*/ /* escola: 80%*/ 
     margin-top: -2%;
 }
 #botao-logo {
@@ -34,8 +34,8 @@ body {
 .botao {
     background-color: rgb(36, 80, 0);
     color: rgb(255, 255, 255);
-    font-size: 2rem; /* em casa: 1.6*/ /* escola: 2rem*/ 
-    width: 22.3%; /* em casa: 21.5*/ /* escola: 22.3%*/
+    font-size: 1.6rem; /* em casa: 1.6*/ /* escola: 2rem*/ 
+    width: 21.5%; /* em casa: 21.5*/ /* escola: 22.3%*/
     border: 0.3rem solid black;
     font-family: 'Orbitron', Arial, sans-serif;
     transition: border 0.25s, color 0.25s;
