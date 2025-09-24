@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function (){
     const botaoMalware = document.getElementById('botao-malware');
     const botaoCreditos = document.getElementById('botao-creditos');
     const botaoLogo = document.getElementById('botao-logo');
+    document.querySelector('.conteudo-inicial').style.display = 'flex';
     botaoLogo.addEventListener('click', function() {
         document.body.style.backgroundColor = 'rgb(98, 139, 22)';
         document.body.style.backgroundImage = 'url("side-bar-verde.png"), url("side-bar-verde.png")';

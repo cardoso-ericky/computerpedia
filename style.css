@@ -12,7 +12,7 @@ body {
     justify-content: center;
 }
 .logo {
-    width: 80%; /* em casa: 66*/ /* escola: 80%*/ 
+    width: 66%; /* em casa: 66*/ /* escola: 80%*/ 
     margin-top: -2%;
 }
 #botao-logo {
@@ -34,8 +34,8 @@ body {
 .botao {
     background-color: rgb(36, 80, 0);
     color: rgb(255, 255, 255);
-    font-size: 2rem; /* em casa: 1.6*/ /* escola: 2rem*/ 
-    width: 22.3%; /* em casa: 21.5*/ /* escola: 22.3%*/
+    font-size: 1.6rem; /* em casa: 1.6*/ /* escola: 2rem*/ 
+    width: 21.5%; /* em casa: 21.5*/ /* escola: 22.3%*/
     border: 0.3rem solid black;
     font-family: 'Orbitron', Arial, sans-serif;
     transition: border 0.25s, color 0.25s;
@@ -118,6 +118,9 @@ body {
 .accordion-text {
     font-size: 1.2rem;
 }
+.software-texto {
+    font-size: 1.4rem;
+}
 .accordion-img {
     margin-left: 0;
     margin-top: 0.5rem;
@@ -125,6 +128,15 @@ body {
     width: 25rem;
     height: 20rem;
 }
+#so-img { width: 21rem; height: 11rem; }
+#navegadores-img { width: 22rem; height: 14rem; }
+#aplicacoes-img { width: 20rem; height: 13rem; }
+#banco-img { width: 22rem; height: 14rem; }
+#github-img { width: 23rem; height: 14rem; }
+#iot-img { width: 22rem; height: 14rem; }
+#ia-img { width: 14rem; height: 14rem; }
+#linguagens-img { width: 22rem; height: 14rem; }
+#inicial-define, #inicial-define-dois { font-size: 1.9rem; }
 .lista-software {
     font-size: 1.5rem;
 }
@@ -160,10 +172,11 @@ body {
     padding-left: 1rem;
 }
 .footer {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     position: static;
     background-color: #2e6700;
     margin-left: 6rem;
     margin-right: 6rem; 
     margin-bottom: -1rem;
+    text-align: center;
 } 

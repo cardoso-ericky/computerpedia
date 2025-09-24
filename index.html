@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
   <title>COMPUTERPÉDIA</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <div class="container-logo">
     <button id="botao-logo">
@@ -21,7 +23,18 @@
     <button class="botao" id="botao-malware">MALWARE</button>
     <button class="botao" id="botao-creditos">SOBRE</button>
   </div>
-  <div class="conteudo conteudo-inicial"></div>
+  <div class="conteudo conteudo-inicial">
+    <h1 class="oq" id="oq-inicial">Computerpédia</h1>
+    <h2 class="define" id="inicial-define">No Computerpédia, encontrarás informações detalhadas sobre software,
+      hardware e malware, explicadas de forma clara e acessível. Nosso objetivo é apresentar o básico do complexo
+      mundo da tecnologia para pessoas leigas, tornando o conhecimento mais acessível.
+    </h2>
+    <h2 class="define" id="inicial-define-dois">O nome veio da junção das palavras "Computer" (computador, em inglês),
+      e "Wikipédia" (a maior enclicopédia online da atualidade). Para o software escolhemos o azul escuro, pois....
+      para o hardware, escolhemos o rosa e branco, pelo simples motivo de que todos amam um setup clean e bonito, assim
+      como essas cores. Para o malware escolhemos vermelho, pois remete ao perigo e alerta.
+    </h2>
+  </div>
   <div class="conteudo conteudo-software">
     <h1 class="oq" id="oq-software">O que é um Software</h1>
     <h2 class="define" id="software-define"> Software é um conjunto de instruções, programas e dados que permitem que
@@ -46,14 +59,177 @@
         </ul>
       </div>
     </div>
+    <div class="accordion accordion-hardware accordion-so">
+      <button class="accordion-botao botao-accordion-software so-botao">SISTEMAS OPERACIONAIS</button>
+      <div class="accordion-conteudo conteudo-accordion-software so-conteudo">
+        <div class="accordion-flex so-flex">
+          <img src="so.jpg" alt="Sistemas Operacionais" class="accordion-img" id="so-img">
+          <div class="accordion-text software-texto">
+            <p>O sistema operacional é o programa fundamental que permite que o computador ou celular funcione.
+              Ele controla os recursos do hardware, como memória, processador e armazenamento, e cria a base para
+              que outros programas possam rodar. É também responsável por oferecer uma interface gráfica ou por linha
+              de comando, por onde o usuário interage com a máquina. Windows, macOS, Linux, Android e iOS são exemplos
+              conhecidos, cada um com suas particularidades.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion accordion-hardware accordion-navegadores">
+      <button class="accordion-botao botao-accordion-software navegadores-botao">NAVEGADORES</button>
+      <div class="accordion-conteudo conteudo-accordion-software navegadores-conteudo">
+        <div class="accordion-flex navegadores-flex">
+          <img src="navegador.png" alt="Navegador" class="accordion-img" id="navegadores-img">
+          <div class="accordion-text software-texto">
+            <p>O navegador é um programa desenvolvido especificamente para acessar e interpretar conteúdos da internet.
+              Ele transforma códigos escritos em linguagens como HTML, CSS e JavaScript em páginas que podem ser vistas
+              e utilizadas de forma visual, com textos, imagens, vídeos e botões interativos. Além disso, navegadores
+              modernos são verdadeiras plataformas, capazes de rodar aplicações completas, como editores de texto,
+              serviços de streaming e até jogos online. Chrome, Firefox, Edge e Safari estão entre os mais usados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion accordion-hardware accordion-aplicacoes">
+      <button class="accordion-botao botao-accordion-software aplicacoes-botao">APLICAÇÕES WEB E APLICATIVOS</button>
+      <div class="accordion-conteudo conteudo-accordion-software aplicacoes-conteudo">
+        <div class="accordion-flex aplicacoes-flex">
+          <img src="apps.jpg" alt="Aplicações Web e Mobile" class="accordion-img" id="aplicacoes-img">
+          <div class="accordion-text software-texto">
+            <p>Aplicações web são programas que rodam diretamente no navegador e dependem da internet para funcionar.
+              Não é necessário instalar nada no computador, e exemplos comuns são o Gmail, o Google Docs e o Spotify
+              Web. Já os aplicativos móveis são desenvolvidos para rodar em smartphones e tablets, sendo baixados em lojas
+              digitais como a Google Play ou a App Store. Diferentemente das aplicações web, os apps móveis podem aproveitar ao
+              máximo os recursos do dispositivo, como GPS, câmera e sensores de movimento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion accordion-hardware accordion-firmware">
+      <button class="accordion-botao botao-accordion-software firmware-botao">FIRMWARE E DRIVERS</button>
+      <div class="accordion-conteudo conteudo-accordion-software firmware-conteudo">
+        <div class="accordion-flex firmware-flex">
+          <div class="accordion-text software-texto">
+            <p>Firmware é um software especial gravado dentro do próprio hardware, responsável por dar as instruções
+              básicas para que ele funcione. É o que permite, por exemplo, que um roteador saiba como transmitir internet ou que
+              uma placa-mãe inicialize o computador. Já os drivers são softwares que permitem que o sistema operacional
+              reconheça e utilize corretamente componentes específicos, como uma impressora ou uma placa de vídeo. Sem firmware, o
+              hardware não teria sequer condições de iniciar suas funções. Sem drivers, o sistema não conseguiria conversar com
+              os dispositivos conectados a ele.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion accordion-hardware accordion-bancos">
+      <button class="accordion-botao botao-accordion-software bancos-botao">BANCOS DE DADOS</button>
+      <div class="accordion-conteudo conteudo-accordion-software bancos-conteudo">
+        <div class="accordion-flex bancos-flex">
+          <img src="mysql.png" alt="mysql" class="accordion-img" id="banco-img">
+          <div class="accordion-text software-texto">
+            <p>Um banco de dados é o software responsável por armazenar, organizar e disponibilizar informações de forma
+              estruturada. É nele que ficam guardados cadastros de usuários, mensagens de aplicativos, fotos de redes sociais e até
+              transações financeiras de bancos. Alguns bancos de dados, como MySQL e PostgreSQL, organizam informações em tabelas relacionais,
+              enquanto outros, como o MongoDB, são não relacionais e oferecem maior flexibilidade.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion accordion-hardware accordion-bibliotecas">
+      <button class="accordion-botao botao-accordion-software bibliotecas-botao">BIBLIOTECAS, FRAMEWORKS E APIs</button>
+      <div class="accordion-conteudo conteudo-accordion-software bibliotecas-conteudo">
+        <div class="accordion-flex bibliotecas-flex">
+          <div class="accordion-text software-texto">
+            <p>Bibliotecas são coleções de funções prontas que os programadores utilizam para não precisar reescrever
+              código do zero. Frameworks são estruturas maiores, que fornecem um esqueleto pré-montado para acelerar o desenvolvimento
+              de aplicações, ditando inclusive padrões de organização. Já as APIs funcionam como interfaces que permitem que diferentes
+              softwares conversem entre si, compartilhando recursos e informações de maneira padronizada. Um aplicativo de
+              transporte, por exemplo, usa a API do Google Maps para exibir rotas dentro do próprio sistema.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion accordion-hardware accordion-github">
+      <button class="accordion-botao botao-accordion-software github-botao">GITHUB</button>
+      <div class="accordion-conteudo conteudo-accordion-software github-conteudo">
+        <div class="accordion-flex github-flex">
+          <img src="github.png" alt="GitHub" class="accordion-img" id="github-img">
+          <div class="accordion-text software-texto">
+            <p>O GitHub é uma plataforma online voltada para o armazenamento, compartilhamento e colaboração em projetos de software
+              que utilizam o sistema de controle de versão Git. Ele permite que desenvolvedores trabalhem em equipe, criem branches
+              para desenvolver novas funcionalidades, façam pull requests para sugerir mudanças e registrem o histórico completo
+              do código. Além disso, o GitHub oferece integração com ferramentas de automação (CI/CD), gerenciamento de issues,
+              wikis e hospedagem de páginas. É hoje uma das principais redes sociais de programadores, onde milhões de projetos
+              de código aberto e privado estão disponíveis para estudo, contribuição e desenvolvimento.</p>
+         </div>
+       </div>
+      </div>
+    </div>
+    <div class="accordion accordion-hardware accordion-vcs">
+      <button class="accordion-botao botao-accordion-software vcs-botao">VCS</button>
+      <div class="accordion-conteudo conteudo-accordion-software vcs-conteudo">
+        <div class="accordion-flex vcs-flex">
+          <img src="git.jpg" alt="Sistemas de Controle de Versão" class="accordion-img" id="vcs-img">
+          <div class="accordion-text software-texto">
+            <p>Sistemas de controle de versão (VCS) são softwares que registram todas as alterações feitas em arquivos de
+              código ou documentos, permitindo que desenvolvedores acompanhem a evolução do projeto ao longo do tempo. Com eles, é possível
+              saber quem fez determinada modificação, comparar versões, recuperar estados anteriores e trabalhar em equipe sem que um sobrescreva o
+              trabalho do outro. O Git é o sistema mais popular atualmente, utilizado em plataformas como GitHub e GitLab. Em um projeto de
+              software, um VCS funciona como um histórico organizado que garante ordem e segurança no desenvolvimento colaborativo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion accordion-hardware accordion-iot">
+      <button class="accordion-botao botao-accordion-software iot-botao">IoT</button>
+      <div class="accordion-conteudo conteudo-accordion-software iot-conteudo">
+       <div class="accordion-flex iot-flex">
+         <img src="iot.webp" alt="Internet das Coisas" class="accordion-img" id="iot-img">
+         <div class="accordion-text software-texto">
+          <p>A Internet das Coisas é a aplicação de software em objetos físicos comuns, conectando-os à internet para que se tornem dispositivos inteligentes.
+           Uma lâmpada controlada pelo celular, um relógio que mede batimentos cardíacos ou uma geladeira que envia alertas sobre alimentos são exemplos.
+           Esses softwares permitem automação, monitoramento remoto e coleta de dados em tempo real, integrando o mundo físico ao digital. Porém, muitos
+           dispositivos IoT têm pouca ou nenhuma proteção, o que os torna alvos fáceis de invasões que podem comprometer não apenas o aparelho, mas toda a rede onde estão conectados.</p>
+         </div>
+       </div>
+      </div>
+    </div>
+    <div class="accordion accordion-hardware accordion-ia">
+      <button class="accordion-botao botao-accordion-software ia-botao">IA</button>
+      <div class="accordion-conteudo conteudo-accordion-software ia-conteudo">
+       <div class="accordion-flex ia-flex">
+         <img src="ia.png" alt="Inteligência Artificial" class="accordion-img" id="ia-img">
+         <div class="accordion-text software-texto">
+          <p>Inteligência Artificial (IA) é o ramo da computação que busca criar sistemas capazes de executar tarefas que, 
+           normalmente, exigiriam inteligência humana. Isso inclui reconhecer imagens, interpretar linguagem natural,
+           tomar decisões e aprender com dados. Hoje, a IA está presente em assistentes virtuais, recomendações de filmes
+           e músicas, carros autônomos e até diagnósticos médicos. Suas técnicas principais incluem aprendizado de máquina,
+           redes neurais e processamento de linguagem natural. Apesar dos benefícios, também levanta debates sobre ética, 
+           privacidade e o impacto no mercado de trabalho.</p>
+         </div>
+       </div>
+     </div>
+    </div>
+    <div class="accordion accordion-hardware accordion-linguagens">
+      <button class="accordion-botao botao-accordion-software linguagens-botao">LINGUAGENS DE PROGRAMAÇÃO</button>
+      <div class="accordion-conteudo conteudo-accordion-software linguagens-conteudo">
+       <div class="accordion-flex linguagens-flex">
+        <img src="linguagem.png" alt="Linguagens de Programação" class="accordion-img" id="linguagens-img">
+        <div class="accordion-text software-texto">
+         <p>Linguagens de programação são conjuntos de regras e comandos usados para criar softwares. Elas permitem que 
+           desenvolvedores instruam o computador a realizar tarefas de maneira lógica e estruturada. Existem linguagens 
+           de baixo nível, como Assembly e C, mais próximas do hardware, e linguagens de alto nível, como Python, Java e JavaScript,
+           que são mais fáceis de entender e escrever. Cada linguagem tem pontos fortes: Python é popular em ciência de dados e IA,
+           Java em aplicações corporativas, e JavaScript no desenvolvimento web. A escolha da linguagem depende do tipo de projeto, 
+           da performance necessária e do ecossistema de ferramentas disponíveis.</p>
+        </div>
+       </div>
+     </div>
+    </div>
   </div>
   <div class="conteudo conteudo-hardware">
     <h1 class="oq" id="oq-hardware">O que é um Hardware</h1>
     <h2 class="define" id="hardware-define"> Hardware refere-se à parte física e tangível de um sistema de computador,
-      englobando todos
-      os componentes eletrônicos e mecânicos que o constituem. Inclui dispositivos internos como a placa-mãe e o
-      processador, bem como
-      periféricos externos como o teclado e o monitor. É o lado físico que processa, armazena e transmite dados
+      englobando todos os componentes eletrônicos e mecânicos que o constituem. Inclui dispositivos internos como a placa-mãe e o
+      processador, bem como periféricos externos como o teclado e o monitor. É o lado físico que processa, armazena e transmite dados
     </h2>
     <div class="accordion accordion-hardware accordion-placamae">
       <button class="accordion-botao botao-accordion-hardware placamae-botao">MOTHERBOARD</button>
@@ -175,7 +351,8 @@
           <div class="accordion-text cooler-texto">
             <h3>O cooler é responsável por manter os componentes do computador em temperaturas seguras, evitando
               superaquecimento.</h3>
-            <h3>Existem dois principais tipos de refrigeração: a ar (ventiladores e dissipadores de calor) e líquida (watercoolers).</h3>
+            <h3>Existem dois principais tipos de refrigeração: a ar (ventiladores e dissipadores de calor) e líquida
+              (watercoolers).</h3>
             <h3>Os primeiros sistemas de refrigeração surgiram junto com os primeiros processadores, quando a
               necessidade de dissipar calor começou a ser relevante. Hoje, marcas como
               Noctua, Corsair e Cooler Master são líderes em soluções de resfriamento para PC.</h3>
@@ -369,7 +546,59 @@
       grupo.</p>
   </div>
   <div class="footer">
-   <h1 id="footer-texto">© 2025 COMPUTERPÉDIA, by Wareraze. Todos os direitos reservados.</h1>
+    <h1 id="footer-texto">© 2025 COMPUTERPÉDIA, by Underworld. (Nem) Todos os direitos reservados.</h1>
   </div>
 </body>
+
 </html>
+
+
+
+<!-- 
+Aplicações Web e Aplicativos Móveis
+
+Aplicações web são programas que rodam diretamente no navegador e dependem da internet para funcionar. Não é necessário instalar nada no computador, e exemplos comuns são o Gmail, o Google Docs e o Spotify Web. Já os aplicativos móveis são desenvolvidos para rodar em smartphones e tablets, sendo baixados em lojas digitais como a Google Play ou a App Store. Diferentemente das aplicações web, os apps móveis podem aproveitar ao máximo os recursos do dispositivo, como GPS, câmera e sensores de movimento. Ambos fazem parte do cotidiano dos usuários e estão entre os tipos de software mais utilizados atualmente, mas exigem atenção quanto à origem e às permissões solicitadas, já que podem ser explorados por softwares maliciosos.
+
+Firmware e Drivers
+
+Firmware é um software especial gravado dentro do próprio hardware, responsável por dar as instruções básicas para que ele funcione. É o que permite, por exemplo, que um roteador saiba como transmitir internet ou que uma placa-mãe inicialize o computador. Já os drivers são softwares que permitem que o sistema operacional reconheça e utilize corretamente componentes específicos, como uma impressora ou uma placa de vídeo. Sem firmware, o hardware não teria sequer condições de iniciar suas funções; sem drivers, o sistema não conseguiria conversar com os dispositivos conectados a ele.
+
+Bancos de Dados
+
+Um banco de dados é o software responsável por armazenar, organizar e disponibilizar informações de forma estruturada. É nele que ficam guardados cadastros de usuários, mensagens de aplicativos, fotos de redes sociais e até transações financeiras de bancos. Alguns bancos de dados, como MySQL e PostgreSQL, organizam informações em tabelas relacionais, enquanto outros, como o MongoDB, são não relacionais e oferecem maior flexibilidade. Seja qual for o modelo, eles estão no centro do funcionamento da maioria dos softwares modernos, e quando mal configurados ou protegidos, tornam-se pontos críticos de risco para vazamentos de informações.
+
+Bibliotecas, Frameworks e APIs
+
+Bibliotecas são coleções de funções prontas que os programadores utilizam para não precisar reescrever código do zero. Frameworks são estruturas maiores, que fornecem um esqueleto pré-montado para acelerar o desenvolvimento de aplicações, ditando inclusive padrões de organização. Já as APIs funcionam como interfaces que permitem que diferentes softwares conversem entre si, compartilhando recursos e informações de maneira padronizada. Um aplicativo de transporte, por exemplo, usa a API do Google Maps para exibir rotas dentro do próprio sistema. Essas ferramentas são fundamentais para o desenvolvimento moderno, tornando-o mais rápido e integrado, mas também trazem a responsabilidade de escolher fontes seguras e mantê-las atualizadas.
+
+VCS – Sistemas de Controle de Versão
+
+Sistemas de controle de versão são softwares que registram todas as alterações feitas em arquivos de código ou documentos, permitindo que desenvolvedores acompanhem a evolução do projeto ao longo do tempo. Com eles, é possível saber quem fez determinada modificação, comparar versões, recuperar estados anteriores e trabalhar em equipe sem que um sobrescreva o trabalho do outro. O Git é o sistema mais popular atualmente, utilizado em plataformas como GitHub e GitLab. Em um projeto de software, um VCS funciona como um histórico organizado que garante ordem e segurança no desenvolvimento colaborativo.
+
+IoT – Internet das Coisas
+
+A Internet das Coisas é a aplicação de software em objetos físicos comuns, conectando-os à internet para que se tornem dispositivos inteligentes. Uma lâmpada controlada pelo celular, um relógio que mede batimentos cardíacos ou uma geladeira que envia alertas sobre alimentos são exemplos. Esses softwares permitem automação, monitoramento remoto e coleta de dados em tempo real, integrando o mundo físico ao digital. Porém, muitos dispositivos IoT têm pouca ou nenhuma proteção, o que os torna alvos fáceis de invasões que podem comprometer não apenas o aparelho, mas toda a rede onde estão conectados.
+
+Software em Nuvem
+
+Software em nuvem é aquele acessado diretamente pela internet, sem a necessidade de instalação tradicional no computador. Existem diferentes modelos desse tipo de software: no SaaS (Software as a Service), o usuário utiliza programas prontos, como o Gmail ou o Office 365; no PaaS (Platform as a Service), desenvolvedores encontram um ambiente preparado para criar e hospedar aplicações, como no Heroku; já no IaaS (Infrastructure as a Service), empresas alugam infraestrutura digital completa, como servidores virtuais, em serviços como Amazon AWS. O software em nuvem revolucionou a forma de usar tecnologia, oferecendo acesso de qualquer lugar, escalabilidade e redução de custos, embora exija atenção com privacidade e segurança dos dados.
+
+Virtualização e Contêineres
+
+Virtualização é a tecnologia que permite criar máquinas virtuais completas dentro de um computador físico. Com ela, é possível simular vários sistemas operacionais em uma mesma máquina. Os contêineres, como os criados com Docker, são uma evolução dessa ideia: eles empacotam um aplicativo com todas as suas dependências em um ambiente isolado, mais leve e portátil do que as máquinas virtuais. Essas tecnologias são amplamente usadas em empresas modernas para otimizar recursos, testar sistemas e organizar ambientes complexos. Sua eficiência, porém, depende de uma boa configuração para não comprometer a segurança.
+
+IDEs e Gerenciadores de Pacotes
+
+IDEs, ou Ambientes de Desenvolvimento Integrado, são softwares criados para facilitar a vida dos programadores, reunindo em um só lugar editor de código, depurador, sugestões automáticas e integração com sistemas de controle de versão. Exemplos são o Visual Studio Code, o Eclipse e o IntelliJ. Já os gerenciadores de pacotes são programas que instalam e atualizam automaticamente bibliotecas necessárias para o funcionamento de outras aplicações, como o npm no JavaScript ou o pip no Python. Ambos são ferramentas indispensáveis para o desenvolvimento moderno, mas devem ser usados com cuidado, já que pacotes de origem duvidosa podem trazer vulnerabilidades.
+
+Malware e Segurança
+
+Malware é o nome dado a qualquer software criado com a intenção de causar danos, roubar informações ou comprometer o funcionamento de um sistema. Entre os tipos mais conhecidos estão os vírus, que se espalham infectando arquivos; os trojans, que se disfarçam de programas legítimos; os ransomwares, que sequestram dados e exigem resgate; e os spywares, que espionam a atividade do usuário. A proteção contra essas ameaças envolve a combinação de boas práticas, como manter sistemas atualizados, usar antivírus confiáveis, realizar backups e, principalmente, ter cautela ao abrir anexos ou clicar em links desconhecidos.
+
+Arquiteturas de Software
+
+Arquitetura de software é a forma como um sistema é estruturado internamente. O modelo monolítico organiza tudo em um único bloco de código, o que facilita o desenvolvimento inicial, mas dificulta a manutenção e a escalabilidade. Já os microserviços dividem o sistema em partes independentes que se comunicam entre si, o que permite maior flexibilidade e crescimento, mas exige uma infraestrutura mais complexa. A escolha da arquitetura influencia diretamente o desempenho, os custos e a evolução de qualquer projeto de software.
+
+Automação e Bots
+
+Automação é o uso de software para executar tarefas repetitivas sem intervenção humana, economizando tempo e reduzindo erros. Bots são programas criados para agir de forma autônoma em ambientes digitais, podendo ser usados de forma útil, como em chatbots de atendimento ou nos mecanismos de busca do Google, ou de maneira prejudicial, como em robôs que espalham spam e manipulam redes sociais. Assim como toda tecnologia, sua utilidade depende de como é aplicada: pode ser uma poderosa ferramenta de produtividade ou uma arma de abuso digital. -->
