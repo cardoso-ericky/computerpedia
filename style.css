@@ -6,6 +6,9 @@ body {
     background-repeat: no-repeat;
     background-position: left top, right top;
     font-family: 'Orbitron', Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .container-logo {
     display: flex;
@@ -102,6 +105,11 @@ body {
     color: rgb(255, 0, 51);
     border-color: rgb(255, 0, 51);
 }
+
+.conteudo_principal{
+    flex-grow: 2;
+}
+
  .accordion-conteudo { 
     max-height: 0;
     overflow: hidden;
@@ -180,6 +188,6 @@ body {
     background-color: #2e6700;
     margin-left: 6rem;
     margin-right: 6rem; 
-    margin-bottom: -1rem;
+    margin-bottom: 0;
     text-align: center;
 }
