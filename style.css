@@ -38,7 +38,7 @@ body {
     background-color: rgb(36, 80, 0);
     color: rgb(255, 255, 255);
     font-size: 2rem; /* em casa: 1.6*/ /* escola: 2rem*/ 
-    width: 22.3%; /* em casa: 21.5*/ /* escola: 22.3%*/
+    width: 22%; /* em casa: 21.5*/ /* escola: 22.3%*/
     border: 0.3rem solid black;
     font-family: 'Orbitron', Arial, sans-serif;
     transition: border 0.25s, color 0.25s;
