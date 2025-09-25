@@ -108,9 +108,6 @@ body {
 
 .conteudo-principal{
     flex-grow: 2;
-    /* position: relative;
-    height: 100%;
-    bottom: 0; */
 }
 
  .accordion-conteudo { 
@@ -191,6 +188,6 @@ body {
     background-color: #2e6700;
     margin-left: 6rem;
     margin-right: 6rem; 
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     text-align: center;
 }
