@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function (){
     });
     botaoSoftware.addEventListener('click', function() {
         document.body.style.backgroundColor = 'rgba(32, 16, 126, 1)';
-        document.body.style.backgroundImage = 'url("side-bar-roxa.png"), url("side-bar-roxa.png")';
+        document.body.style.backgroundImage = 'url("side-bar-azul.png"), url("side-bar-azul.png")';
         document.querySelectorAll('.botao').forEach(el => el.style.color = 'white');
         document.querySelectorAll('.botao').forEach(el => el.style.backgroundColor = 'rgba(0, 10, 70, 1)');
         limpador();
@@ -42,13 +42,13 @@ document.addEventListener('DOMContentLoaded', function (){
         document.querySelector('.footer').style.backgroundColor = 'rgb(223 0 12)';
     });
     botaoCreditos.addEventListener('click', function() { 
-        document.body.style.backgroundColor = 'rgba(12, 64, 123, 1)';
-        document.body.style.backgroundImage = 'url("side-bar-azul.png"), url("side-bar-azul.png")';
+        document.body.style.backgroundColor = 'rgb(46 0 66)';
+        document.body.style.backgroundImage = 'url("side-bar-roxa.png"), url("side-bar-roxa.png")';
         document.querySelectorAll('.botao').forEach(el => el.style.color = 'white');
-        document.querySelectorAll('.botao').forEach(el => el.style.backgroundColor = 'rgba(39, 48, 201, 1)');
+        document.querySelectorAll('.botao').forEach(el => el.style.backgroundColor = 'rgba(18, 1, 27, 1)');
         limpador();
         document.querySelector('.conteudo-creditos').style.display = 'flex';
-        document.querySelector('.footer').style.backgroundColor = '#0077ff';
+        document.querySelector('.footer').style.backgroundColor = 'rgb(178 0 255)';
     });
     const accordion = document.querySelectorAll('.accordion-botao');
     accordion.forEach(header => {
