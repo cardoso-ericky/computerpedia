@@ -153,6 +153,7 @@ body {
 }
 .espaco-lista {
     margin-top: 1%;
+    font-size: 1.5rem;
 }
 .conteudo-hardware { color: #000000; }
 #oq-hardware { font-size: 2.7rem; }
